@@ -1,0 +1,17 @@
+*   img {
+    border-radius: 8px;
+    border: 5px solid #555;
+  }
+
+.programming {
+    font-family: cursive;
+    background-color: aqua;
+   }
+.Intro{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/00/11/26/5356376b0b393f6.jpg");
+    text-align: center;
+}
+body{
+    background-image: url("https://wallpaperaccess.com/full/817598.jpg");
+}

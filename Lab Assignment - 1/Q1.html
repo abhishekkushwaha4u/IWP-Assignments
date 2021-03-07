@@ -1,0 +1,139 @@
+<html>
+<head>
+</head>
+
+<!-- h. Set the background color of the page as yellow -->
+<body style="background-color:YELLOW">
+ <!-- a. Print your name and RegNo in green color with different style of your choice. -->
+ 
+<div style = "color:GREEN; size:30; font-family: 'Courier';">
+18BCE0492 Abhishek Kushwaha
+</div>
+<!-- b. Print the numbers 1 - 10, each number being a different color. -->
+<div style = "color:RED;">
+1
+</div>
+<div style = "color:ORANGE;">
+2
+</div>
+<div style = "color:PURPLE;">
+3
+</div>
+<div style = "color:TURQUOISE;">
+4
+</div>
+<div style = "color:PINK;">
+5
+</div>
+<div style = "color:INDIGO;">
+6
+</div>
+<div style = "color:BLUE;">
+7
+</div>
+<div style = "color:BROWN;">
+8
+</div>
+<div style = "color:BLACK;">
+9
+</div>
+<div style = "color:GREY;">
+10
+</div>
+<!-- c. Print a paragraph with 4 - 5 sentences. Each sentence should be a different font -->
+
+<p>
+<font face="Times New Roman">
+Hi there! I am Abhishek, a Learning Developer!
+</font>
+<font face="Courier New">
+I like software development, and also gaming.
+</font>
+</p>
+<font face="Helvetica">
+My favourites include solving CTF challenges and working on innovative ideas
+</font>
+<font face="Verdana">
+I am also interested in Shell Programming and Kernel Development.
+</font>
+
+<!-- d. Print a paragraph that is a description of a book; include the title of the book as
+well as its author. Names and titles should be underlined, adjectives should be
+italicized and bolded. -->
+
+<span>
+<h3><U>The Web Application Hacker’s Handbook, 2nd ed.</U></h3>
+<h4><U>By Dafydd Stuttard & Marcus Pinto</U></h4>
+<p>
+<U>The Web Application Hacker’s Handbook</U>, an advanced book by <U>Dafydd Stuttard</U>,& <U> Marcus Pinto</U>is one of the most <B><I>popular</B></I> books for Finding and Exploiting Security Flaws for <U>university students</U> 
+It is perhaps the <B><I>most</B></I> popular book in its era of release, <B>that changed the idea of <U>HACKERS</U></B> being bad men to getting the due respect today. 
+It tells the ideas of different <B><I>Vulnerabilites</B></I> and <B><I>Exploits</B></I>  in the form of a series of <I>stories</I>, which are mostly said to be inspired by the famous hacker
+<U>Kevin Mettnick</U>  
+</p>
+<!-- e. Print your name to the screen with every letter being a different heading size. -->
+<h1>A</h1>
+
+<h2>B</h2>
+
+<h3>H</h3>
+
+<h4>I</h4>
+
+<h5>S</h5>
+
+<h6>H</h6>
+
+<h5>E</h5>
+
+<h4>K</h4>
+
+
+
+<!--f. Write a comment line on your code and make sure it is not displayed in the page-->
+<!--Mam if you are reading this, and its not visible in the broswer page, then this is a comment for sure -->
+
+<!--
+
+g. Display a c code as it is in the page
+-->
+<pre>
+/*C graphics program to draw a line.*/
+
+#include <graphics.h>
+#include <conio.h>
+ 
+main()
+{
+   int gd = DETECT, gm;
+ 
+   //init graphics
+   initgraph(&gd, &gm, "C:/TURBOC3/BGI");
+   /*
+   if you are using turboc2 use below line to init graphics:
+   initgraph(&gd, &gm, "C:/TC/BGI");
+   */
+
+   //draw a line
+
+   /*
+   line() function description
+   parameter left to right
+   x1: 100
+   y1: 100
+   x2: 200
+   y2: 100
+   */
+   line(100,100,200,100);    //will draw a horizontal line
+
+   line(10,10,200,10); //will draw another horizonatl line
+
+   getch();
+   closegraph();
+   return 0;
+}
+</pre>
+<!-- h has been done up with the entire body given a background colour-->
+<!-- i. Apply marquee for your name -->
+<marquee><h3>Abhishek Kushwaha</h3></marquee>
+</body>
+</html>

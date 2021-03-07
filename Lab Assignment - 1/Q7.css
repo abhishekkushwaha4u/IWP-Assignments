@@ -1,0 +1,58 @@
+body{
+    background-color: grey;
+}
+header{
+    background-color: white;
+    text-align: center;
+}   
+.main {
+    width: 80%;
+  background-color: white;
+  padding: 20px;
+  margin: auto;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color:white;
+  }
+  
+  .menu li {
+    float: left;
+    border-right: 3px;
+    margin-right: 3px;
+    border-color: white;
+  }
+  
+  .menu li a {
+    display: inline-block;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .menu li a:hover {
+    background-color: #111;
+  }
+  .img1 {
+    float: left;
+  }
+  .rating{
+      width: 50px;
+      background-color: green;
+      border-spacing: 5px;
+      color: white;
+      text-align:center;
+      font-size: 30pt;
+      margin-left: 120px;
+      padding: 20px;
+  }
+  .clearfix{
+      width:65%;
+    padding: 20px;
+    margin: auto;
+  }
