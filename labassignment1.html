@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Assignment - 1
+    </title>
+    <style>
+        * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  a:link {
+    color: black;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: red;
+    font-weight: bold;
+    padding: 20px;
+  }
+  header {
+    background-image: url("Lab Assignment - 1/paper.jpg");
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    background-repeat:no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+  }
+  
+  nav {
+    float: left;
+    width: 30%;
+    height: 700px;
+    background: lightyellow;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+  }
+
+  nav li{
+    padding-bottom: 50px
+  }
+  
+  article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 700px;
+  }
+  article ul {
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+  }
+  article li{
+    padding-bottom: 50px
+  }
+  
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>Lab Assignment - 1</h2>
+    </header>
+
+    <section>
+        <nav>
+            <ol>
+                <li><a href="Lab Assignment - 1/Q1.html">Q1</a></li>
+                <li><a href="Lab Assignment - 1/Q2.html">Q2</a></li>
+                <li><a href="Lab Assignment - 1/Q3.html">Q3</a></li>
+                <li><a href="Lab Assignment - 1/Q4.html">Q4</a></li>
+                <li><a href="Lab Assignment - 1/Q5.html">Q5</a></li>
+                <li><a href="Lab Assignment - 1/Q6.html">Q6</a></li>
+                <li><a href="Lab Assignment - 1/Q7.html">Q7</a></li>
+                <li><a href="Lab Assignment - 1/Q8.html">Q8</a></li>
+                <li><a href="Lab Assignment - 1/Q9.html">Q9</a></li>
+                <li><a href="Lab Assignment - 1/Q10.html">Q10</a></li>
+            </ol>
+        </nav>
+
+        <article>
+            <center>
+                <h1>Question paper:</h1>
+            </center>
+            <center><iframe src="Lab Assignment - 1/Question.pdf" width="800" height="610"></center>
+
+        </article>
+    </section>
+
+</body>
+
+</html>
